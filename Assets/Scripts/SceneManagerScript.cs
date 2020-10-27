@@ -7,25 +7,8 @@ using TMPro;
 
 public class SceneManagerScript : MonoBehaviour
 {
-    public void GoToMainMenuScene()
+    public void loadlevel(string scene)
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene(scene);
     }
-    public void GoToRegistrationScene()
-    {
-        SceneManager.LoadScene("Registration");
-    }
-    public void GoToHomeworkScene()
-    {
-        SceneManager.LoadScene("HistoryHomework");
-    }
-    public void GoToSelfWorkScene()
-    {
-        SceneManager.LoadScene("Selftwork");
-    }
-    public void GoToSettingsScene()
-    {
-        SceneManager.LoadScene("Settings");
-    }
-
 }
