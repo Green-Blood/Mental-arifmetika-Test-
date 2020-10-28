@@ -1,0 +1,1052 @@
+fileFormatVersion: 2
+guid: 8d710c9afb187d54abba124802a1c559
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1537367592871620281
+    second: Registration+MainMenu_0
+  - first:
+      213: 2780803450708503123
+    second: Registration+MainMenu_1
+  - first:
+      213: -5056080134703618690
+    second: Registration+MainMenu_2
+  - first:
+      213: 8051862394324453691
+    second: Registration+MainMenu_3
+  - first:
+      213: 4408508488363219872
+    second: Registration+MainMenu_4
+  - first:
+      213: 3120067223363500190
+    second: Registration+MainMenu_5
+  - first:
+      213: 4000553812876836609
+    second: Registration+MainMenu_6
+  - first:
+      213: -5587872802691545350
+    second: Registration+MainMenu_7
+  - first:
+      213: -2755821356179502262
+    second: Registration+MainMenu_8
+  - first:
+      213: 1030526965380528100
+    second: Registration+MainMenu_9
+  - first:
+      213: 1737609612361791082
+    second: Registration+MainMenu_10
+  - first:
+      213: 4849748176524348459
+    second: Registration+MainMenu_11
+  - first:
+      213: 4079689772102878765
+    second: Registration+MainMenu_12
+  - first:
+      213: 549684676643954136
+    second: Registration+MainMenu_13
+  - first:
+      213: 892797265568365696
+    second: Registration+MainMenu_14
+  - first:
+      213: -5212362328085931625
+    second: Registration+MainMenu_15
+  - first:
+      213: 3077814534504463415
+    second: Registration+MainMenu_16
+  - first:
+      213: -9179650325345842285
+    second: Registration+MainMenu_17
+  - first:
+      213: 4493840791787326754
+    second: Registration+MainMenu_18
+  - first:
+      213: -5085917777842032674
+    second: Registration+MainMenu_19
+  - first:
+      213: 6923961792988934402
+    second: Registration+MainMenu_20
+  - first:
+      213: -4381246361045702967
+    second: Registration+MainMenu_21
+  - first:
+      213: 9019784832585930237
+    second: Registration+MainMenu_22
+  - first:
+      213: -1465766090772824753
+    second: Registration+MainMenu_23
+  - first:
+      213: 2013323453072560111
+    second: Registration+MainMenu_24
+  - first:
+      213: -3698509598727132768
+    second: Registration+MainMenu_25
+  - first:
+      213: -1235690467898093417
+    second: Registration+MainMenu_26
+  - first:
+      213: -2516948209565962457
+    second: Registration+MainMenu_27
+  - first:
+      213: -1920490904935025479
+    second: Registration+MainMenu_28
+  - first:
+      213: 4610072581883354949
+    second: Registration+MainMenu_29
+  - first:
+      213: -3226093232748188948
+    second: Registration+MainMenu_30
+  - first:
+      213: 6061099979125139822
+    second: Registration+MainMenu_31
+  - first:
+      213: -47589197996519070
+    second: Registration+MainMenu_32
+  - first:
+      213: -3682730024986932829
+    second: Registration+MainMenu_33
+  - first:
+      213: -1750847278613537242
+    second: Registration+MainMenu_34
+  - first:
+      213: 8703824897755243260
+    second: Registration+MainMenu_35
+  - first:
+      213: 5224731196502009473
+    second: Registration+MainMenu_36
+  - first:
+      213: 3604802806236267959
+    second: Registration+MainMenu_37
+  - first:
+      213: 363490169181471452
+    second: Registration+MainMenu_38
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Registration+MainMenu_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 5147
+        width: 812
+        height: 983
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be6f4e2ea3d55510800000000000000
+      internalID: 1537367592871620281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_1
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 5270
+        width: 818
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a29ad4106679620800000000000000
+      internalID: 2780803450708503123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_2
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 5009
+        width: 923
+        height: 1109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75e41fd7e135d9b0800000000000000
+      internalID: -5056080134703618690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_3
+      rect:
+        serializedVersion: 2
+        x: 2966
+        y: 5627
+        width: 2903
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b390902ef26fdbf60800000000000000
+      internalID: 8051862394324453691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_4
+      rect:
+        serializedVersion: 2
+        x: 5915
+        y: 5627
+        width: 182
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab1f26ec1b2e2d30800000000000000
+      internalID: 4408508488363219872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1727
+        width: 2825
+        height: 3260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98bbebdb94bc4b20800000000000000
+      internalID: 3120067223363500190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_6
+      rect:
+        serializedVersion: 2
+        x: 2966
+        y: 3737
+        width: 2906
+        height: 1847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fbb593f72d48730800000000000000
+      internalID: 4000553812876836609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_7
+      rect:
+        serializedVersion: 2
+        x: 5915
+        y: 3695
+        width: 182
+        height: 1847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af60181ba43e372b0800000000000000
+      internalID: -5587872802691545350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_8
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 3308
+        width: 647
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b4c78d31b51c9d0800000000000000
+      internalID: -2755821356179502262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_9
+      rect:
+        serializedVersion: 2
+        x: 3947
+        y: 3044
+        width: 788
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7b7f6a0da2d4e00800000000000000
+      internalID: 1030526965380528100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_10
+      rect:
+        serializedVersion: 2
+        x: 5456
+        y: 2882
+        width: 557
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66f0277cba3d1810800000000000000
+      internalID: 1737609612361791082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_11
+      rect:
+        serializedVersion: 2
+        x: 2969
+        y: 2717
+        width: 2321
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c05df7544cd4340800000000000000
+      internalID: 4849748176524348459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_12
+      rect:
+        serializedVersion: 2
+        x: 5330
+        y: 1589
+        width: 776
+        height: 1202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d268cfb8b38fd9830800000000000000
+      internalID: 4079689772102878765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_13
+      rect:
+        serializedVersion: 2
+        x: 3077
+        y: 1919
+        width: 551
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd96d11d4fd0a700800000000000000
+      internalID: 549684676643954136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_14
+      rect:
+        serializedVersion: 2
+        x: 3836
+        y: 2267
+        width: 233
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c74aef16ad36c00800000000000000
+      internalID: 892797265568365696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_15
+      rect:
+        serializedVersion: 2
+        x: 4346
+        y: 2087
+        width: 362
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7995fc13418f9a7b0800000000000000
+      internalID: -5212362328085931625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_16
+      rect:
+        serializedVersion: 2
+        x: 5090
+        y: 2285
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c3cad130896ba20800000000000000
+      internalID: 3077814534504463415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_17
+      rect:
+        serializedVersion: 2
+        x: 5090
+        y: 2069
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b467b3aa45b9080800000000000000
+      internalID: -9179650325345842285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_18
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1274
+        width: 2438
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22dc4a704645d5e30800000000000000
+      internalID: 4493840791787326754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_19
+      rect:
+        serializedVersion: 2
+        x: 2498
+        y: 1280
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfa1e63ab03b69b0800000000000000
+      internalID: -5085917777842032674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_20
+      rect:
+        serializedVersion: 2
+        x: 3044
+        y: 1370
+        width: 359
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2017b75e09ad61060800000000000000
+      internalID: 6923961792988934402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_21
+      rect:
+        serializedVersion: 2
+        x: 3530
+        y: 1334
+        width: 512
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6e560c5afa233c0800000000000000
+      internalID: -4381246361045702967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_22
+      rect:
+        serializedVersion: 2
+        x: 4199
+        y: 1400
+        width: 431
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df59db03486bc2d70800000000000000
+      internalID: 9019784832585930237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_23
+      rect:
+        serializedVersion: 2
+        x: 4817
+        y: 1328
+        width: 440
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d3ca3a18d88abe0800000000000000
+      internalID: -1465766090772824753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_24
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 833
+        width: 2438
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef4a567303c0fb10800000000000000
+      internalID: 2013323453072560111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_25
+      rect:
+        serializedVersion: 2
+        x: 2498
+        y: 821
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a92f719d114cacc0800000000000000
+      internalID: -3698509598727132768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_26
+      rect:
+        serializedVersion: 2
+        x: 3011
+        y: 929
+        width: 2411
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79019900112f9dee0800000000000000
+      internalID: -1235690467898093417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_27
+      rect:
+        serializedVersion: 2
+        x: 5465
+        y: 185
+        width: 638
+        height: 1049
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fe3c250f0021dd0800000000000000
+      internalID: -2516948209565962457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_28
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 35
+        width: 548
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4baf872bb0955e0800000000000000
+      internalID: -1920490904935025479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_29
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 35
+        width: 548
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fdce786944aff30800000000000000
+      internalID: 4610072581883354949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_30
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 35
+        width: 548
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceaa0c12c4d9a33d0800000000000000
+      internalID: -3226093232748188948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_31
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 398
+        width: 413
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69a1e3615a5d1450800000000000000
+      internalID: 6061099979125139822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_32
+      rect:
+        serializedVersion: 2
+        x: 2294
+        y: 26
+        width: 683
+        height: 683
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261954660ede65ff0800000000000000
+      internalID: -47589197996519070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_33
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 89
+        width: 383
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a90df0ed8054ecc0800000000000000
+      internalID: -3682730024986932829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_34
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 188
+        width: 395
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ed74e2dadb3b7e0800000000000000
+      internalID: -1750847278613537242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_35
+      rect:
+        serializedVersion: 2
+        x: 4436
+        y: 35
+        width: 626
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2e6e131a23ac870800000000000000
+      internalID: 8703824897755243260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_36
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 200
+        width: 179
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18667666759f18840800000000000000
+      internalID: 5224731196502009473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_37
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 248
+        width: 134
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b54b0f9d05d60230800000000000000
+      internalID: 3604802806236267959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Registration+MainMenu_38
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 44
+        width: 197
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2886d02606b0500800000000000000
+      internalID: 363490169181471452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
