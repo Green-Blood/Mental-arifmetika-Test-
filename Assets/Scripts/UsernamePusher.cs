@@ -14,6 +14,4 @@ public class UsernamePusher : MonoBehaviour
     {
         _usernameMainMenu.text = _usernameRegistration.text ;
     }
-
-
 }
