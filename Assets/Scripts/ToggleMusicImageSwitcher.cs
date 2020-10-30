@@ -1,6 +1,8 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.UI;
-using System;
+
 public class ToggleMusicImageSwitcher : MonoBehaviour
 {
     private Image toggleImgMusic;
@@ -10,16 +12,20 @@ public class ToggleMusicImageSwitcher : MonoBehaviour
 
     void Start()
     {
+        SoundManager.Instance.musicManager.clip = SoundManager.Instance.backgroundLoop;
         toggleImgMusic = GetComponent<Image>();
-        toggle = this.gameObject.GetComponent<Toggle>();
-        toggle.isOn = Convert.ToBoolean(PlayerPrefs.GetInt("Toggle"));
+        toggle = GetComponent<Toggle>();
+        toggle.isOn = Convert.ToBoolean(PlayerPrefs.GetInt("Music"));
         toggleImgMusic.sprite = toggle.isOn ? switcherOn : switcherOff;
+        SoundManager.Instance.musicManager.volume = toggle.isOn ? 1f : 0f;
+        SoundManager.Instance.musicManager.Play();
     }
 
-    public void MusicSwitch(Boolean isOn)
+    public void MusicSwitch(bool isOn)
     {
         toggleImgMusic.sprite = isOn ? switcherOn : switcherOff;
-        PlayerPrefs.SetInt("Toggle", (isOn ? 1 : 0));
+        SoundManager.Instance.musicManager.volume = isOn ? 1f : 0f;
+        PlayerPrefs.SetInt("Music", (isOn ? 1 : 0));
         PlayerPrefs.Save();
     }
 }

@@ -1,28 +1,33 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(Button))]
 public class SoundManager : MonoBehaviour
 {
+    public static SoundManager Instance { get; private set; }
 
-    public AudioClip sound;
-    private Button button { get { return GetComponent<Button>(); } }
-    private AudioSource source { get { return GetComponent<AudioSource>(); } }
-
-
-    // Start is called before the first frame update
-    private void Start()
+    private void Awake()
     {
-        gameObject.AddComponent<AudioSource>();
-        source.clip = sound;
-        source.playOnAwake = false;
-        button.onClick.AddListener(() => PlaySound());
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
-    void PlaySound()
+    public AudioClip sound;
+    public AudioClip backgroundLoop;
+    public AudioSource soundManager;
+    public AudioSource musicManager;
+
+    public void PlaySound()
     {
-        source.PlayOneShot(sound);
+        soundManager.PlayOneShot(sound);
     }
 }
