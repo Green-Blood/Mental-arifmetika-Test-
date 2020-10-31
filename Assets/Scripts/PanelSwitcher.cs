@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,19 +10,39 @@ public class PanelSwitcher : MonoBehaviour
 
     [SerializeField] private Animator _menuAnimator;
 
-    public Button SetAnimation;
+    private bool _resetAnim = false;
 
     public void MenuSwapper(int id)
     {
-        foreach (GameObject menu in menuPanels)
         {
-            menu.SetActive(false);
+            foreach (GameObject menu in menuPanels)
+            {
+                menu.SetActive(false);
+            }
+            if (gameObject.active)
+            {
+                menuPanels[id].SetActive(true);
+                StartCoroutine(ResetAnimRoutine());
+                ScaleDownMenu();
+            }
+            
         }
-        menuPanels[id].SetActive(true);
     }
 
-    public void ScaleMenu(bool scale)
+    public void ScaleDownMenu()
     {
-        _menuAnimator.SetBool("Size", scale);
+        _menuAnimator.SetTrigger("SizeDown");
     }
+    public void ScaleUpMenu()
+    {
+        _menuAnimator.SetTrigger("SizeUp");
+    }
+
+    IEnumerator ResetAnimRoutine()
+    {
+        _resetAnim = true;
+        yield return new WaitForSeconds(3f);
+        _resetAnim = false;
+    }
+
 }

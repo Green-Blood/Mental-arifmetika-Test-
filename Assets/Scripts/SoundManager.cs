@@ -6,6 +6,11 @@ using UnityEngine.UI;
 
 public class SoundManager : MonoBehaviour
 {
+
+    public AudioClip sound;
+    public AudioClip backgroundLoop;
+    public AudioSource soundManager;
+    public AudioSource musicManager;
     public static SoundManager Instance { get; private set; }
 
     private void Awake()
@@ -20,11 +25,6 @@ public class SoundManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
-    public AudioClip sound;
-    public AudioClip backgroundLoop;
-    public AudioSource soundManager;
-    public AudioSource musicManager;
 
     public void PlaySound()
     {
