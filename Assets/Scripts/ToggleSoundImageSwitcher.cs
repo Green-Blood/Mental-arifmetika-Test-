@@ -3,15 +3,13 @@ using UnityEngine.UI;
 using System;
 public class ToggleSoundImageSwitcher : MonoBehaviour
 {
-    private Image toggleImgSound;
-    public Sprite switcherOn;
-    public Sprite switcherOff;
-    Toggle toggle;
+    [SerializeField] private Image toggleImgSound;
+    [SerializeField] private Sprite switcherOn;
+    [SerializeField] private Sprite switcherOff;
+    [SerializeField] private Toggle toggle;
 
     void Start()
     {
-        toggleImgSound = GetComponent<Image>();
-        toggle = GetComponent<Toggle>();
         toggle.isOn = Convert.ToBoolean(PlayerPrefs.GetInt("Sound"));
         toggleImgSound.sprite = toggle.isOn ? switcherOn : switcherOff;
         SoundManager.Instance.soundManager.volume = toggle.isOn ? 1f : 0f;

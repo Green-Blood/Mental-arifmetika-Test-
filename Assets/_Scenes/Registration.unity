@@ -9239,8 +9239,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f4619b1fd0222b4f92d903ea5f40542, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  toggleImgSound: {fileID: 391845268}
   switcherOn: {fileID: 21300000, guid: f805994744f1f8e4baf6bf454c2bd3d9, type: 3}
   switcherOff: {fileID: 21300000, guid: dd1cace4dada68444bf42eb737e2b124, type: 3}
+  toggle: {fileID: 391845265}
 --- !u!222 &391845267
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10951,7 +10953,6 @@ GameObject:
   - component: {fileID: 512359592}
   - component: {fileID: 512359594}
   - component: {fileID: 512359593}
-  - component: {fileID: 512359596}
   m_Layer: 5
   m_Name: RegistrationPanel
   m_TagString: Untagged
@@ -11017,19 +11018,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 512359591}
   m_CullTransparentMesh: 0
---- !u!114 &512359596
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 512359591}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be259aa22ccfc9d4baf519f48f6925f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _menuAnimator: {fileID: 0}
 --- !u!1 &516495725
 GameObject:
   m_ObjectHideFlags: 0
@@ -13521,17 +13509,6 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1820186893}
         m_MethodName: SetTextOnUser
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1304656972}
-        m_MethodName: PlaySound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17173,7 +17150,7 @@ RectTransform:
   - {fileID: 870594163}
   - {fileID: 522719157}
   m_Father: {fileID: 1254630226}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -17216,7 +17193,7 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 994891169}
-  m_CullTransparentMesh: 0
+  m_CullTransparentMesh: 1
 --- !u!1 &1001964676
 GameObject:
   m_ObjectHideFlags: 0
@@ -19633,7 +19610,7 @@ RectTransform:
   - {fileID: 135293020}
   - {fileID: 213493499}
   m_Father: {fileID: 1254630226}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -20058,6 +20035,7 @@ GameObject:
   - component: {fileID: 1254630224}
   - component: {fileID: 1254630223}
   - component: {fileID: 1254630227}
+  - component: {fileID: 1254630229}
   - component: {fileID: 1254630228}
   m_Layer: 5
   m_Name: Canvas
@@ -20138,8 +20116,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 512359592}
-  - {fileID: 994891170}
   - {fileID: 1222577270}
+  - {fileID: 994891170}
   - {fileID: 918496630}
   - {fileID: 120578030}
   m_Father: {fileID: 0}
@@ -20169,6 +20147,7 @@ MonoBehaviour:
   - {fileID: 918496629}
   - {fileID: 120578029}
   _menuAnimator: {fileID: 1254630228}
+  _switchAnimation: {fileID: 1254630229}
 --- !u!95 &1254630228
 Animator:
   serializedVersion: 3
@@ -20188,6 +20167,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1254630229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254630222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be259aa22ccfc9d4baf519f48f6925f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _menuAnimator: {fileID: 1254630228}
 --- !u!1 &1270553748
 GameObject:
   m_ObjectHideFlags: 0
@@ -27995,8 +27987,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc0e8e1c01cb214438f957a2dcd9d323, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  toggleImgMusic: {fileID: 1963465323}
   switcherOn: {fileID: 21300000, guid: f805994744f1f8e4baf6bf454c2bd3d9, type: 3}
   switcherOff: {fileID: 21300000, guid: dd1cace4dada68444bf42eb737e2b124, type: 3}
+  toggle: {fileID: 1963465321}
 --- !u!114 &1963465323
 MonoBehaviour:
   m_ObjectHideFlags: 0

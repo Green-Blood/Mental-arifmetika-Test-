@@ -7,42 +7,22 @@ using UnityEngine.UI;
 public class PanelSwitcher : MonoBehaviour
 {
     [SerializeField] private GameObject[] menuPanels;
-
     [SerializeField] private Animator _menuAnimator;
-
-    private bool _resetAnim = false;
+    [SerializeField] private MenuAnimations _switchAnimation;
 
     public void MenuSwapper(int id)
     {
+        if (SoundManager.Instance.soundManager.volume > 0) 
         {
-            foreach (GameObject menu in menuPanels)
-            {
-                menu.SetActive(false);
-            }
-            if (gameObject.active)
-            {
-                menuPanels[id].SetActive(true);
-                StartCoroutine(ResetAnimRoutine());
-                ScaleDownMenu();
-            }
-            
+            SoundManager.Instance.PlaySound();
         }
-    }
 
-    public void ScaleDownMenu()
-    {
-        _menuAnimator.SetTrigger("SizeDown");
-    }
-    public void ScaleUpMenu()
-    {
-        _menuAnimator.SetTrigger("SizeUp");
-    }
-
-    IEnumerator ResetAnimRoutine()
-    {
-        _resetAnim = true;
-        yield return new WaitForSeconds(3f);
-        _resetAnim = false;
+        foreach (GameObject menu in menuPanels)
+        {
+            menu.SetActive(false);
+        }
+        _switchAnimation.ScaleDownMenu(true);
+        menuPanels[id].SetActive(true);
     }
 
 }
