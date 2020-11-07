@@ -7,13 +7,13 @@ public class MenuAnimations : MonoBehaviour
 
     [SerializeField] private Animator _menuAnimator;
 
-    public void ScaleDownMenu(bool sizeDown)
+    public void ScaleDownMenu()
     {
-        _menuAnimator.SetBool("SizeDown", sizeDown);
+        _menuAnimator.SetTrigger("ScaleDown");
     }
 
-    public void ScaleUpMenu(bool sizeUp)
+    public void ScaleUpMenu()
     {
-        _menuAnimator.SetBool("SizeUp", sizeUp);
+        _menuAnimator.SetTrigger("ScaleUp");
     }
 }

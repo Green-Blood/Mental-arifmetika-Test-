@@ -18,32 +18,30 @@ public class PanelSwitcher : MonoBehaviour
         {
             SoundManager.Instance.PlaySound();
         }
-        StartCoroutine(ScaleCouroutine(waitTime, id));
+        //StartCoroutine(ScaleCouroutine(waitTime, id));
         foreach (GameObject menu in menuPanels)
         {
-            menu.transform.DOScale(0, waitTime);
+            menu.SetActive(false);
         }
         menuPanels[id].SetActive(true);
-        menuPanels[id].transform.DOScale(1, waitTime);
-        /*foreach (GameObject menu in menuPanels)
-        {
-            menu.SetActive(false);
-        }*/
 
-        //_switchAnimation.ScaleDownMenu(true);
+
+        //menuPanels[id].transform.DOScale(1, waitTime);
+
+        _switchAnimation.ScaleDownMenu();
 
        
     }
 
-    private IEnumerator ScaleCouroutine(float time, int id)
-    {
-        yield return new WaitForSeconds(time);
-        menuPanels[id].transform.DOScale(1, time);
-        menuPanels[id].SetActive(true);
-    }
+    //private IEnumerator ScaleCouroutine(float time, int id)
+    //{
+    //   yield return new WaitForSeconds(time);
+    //   menuPanels[id].transform.DOScale(1, time);
+    //   menuPanels[id].SetActive(true);
+    // }
 
-   
-    
+
+
 
 
 
