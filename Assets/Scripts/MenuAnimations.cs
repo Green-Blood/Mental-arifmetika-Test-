@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class MenuAnimations : MonoBehaviour
@@ -15,5 +16,10 @@ public class MenuAnimations : MonoBehaviour
     public void ScaleUpMenu()
     {
         _menuAnimator.SetTrigger("ScaleUp");
+    }
+
+    public void Hover(bool isEntered)
+    {
+        _menuAnimator.SetBool("Hover", isEntered);
     }
 }
