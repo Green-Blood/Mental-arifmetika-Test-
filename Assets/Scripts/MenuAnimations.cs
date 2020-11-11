@@ -22,4 +22,9 @@ public class MenuAnimations : MonoBehaviour
     {
         _menuAnimator.SetBool("Hover", isEntered);
     }
+
+    public void MainMenuScaleDown()
+    {
+        _menuAnimator.SetTrigger("MainHomeworkScaleDown");
+    }
 }

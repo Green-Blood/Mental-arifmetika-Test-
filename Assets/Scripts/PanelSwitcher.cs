@@ -28,8 +28,6 @@ public class PanelSwitcher : MonoBehaviour
 
         //menuPanels[id].transform.DOScale(1, waitTime);
 
-        _switchAnimation.ScaleDownMenu();
-
        
     }
 
